@@ -1,14 +1,77 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-vue-app</title>
-    <script type="module" crossorigin src="/assets/index-DZqhNbMy.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CmRIRDvl.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>FORM</title>
+</head>
+
+<body bgcolor="yellow" text="blue">
+
+<h1 align="center"><font color="blue">Анкета</font></h1>
+<h3>Дайте відповіді на питання:</h3>
+
+<table width="100%" border="0">
+
+<form method="post" action="http://www.ok.com/ok">
+
+<p>Ваше ім'я:
+<input name="name" size="48">
+</p>
+
+<p>Стать:
+<input name="gender" type="radio" value="male"> Чоловік
+<input name="gender" type="radio" value="female"> Жінка
+</p>
+
+<p>Країна:</p>
+<ul>
+<li>Україна
+<input name="country" type="checkbox" value="Ukraine">
+</li>
+
+<li>Польща
+<input name="country" type="checkbox" value="Poland">
+</li>
+
+<li>Інша
+<textarea name="other" cols="48" rows="3"></textarea>
+</li>
+</ul>
+
+<p>Електронна адреса:
+<input name="email" size="42">
+</p>
+
+<p>Код:
+<input name="cod">
+</p>
+
+<p>Телефон:
+<input name="phone" size="10" maxlength="10">
+</p>
+
+<p>Ваше хоббі:</p>
+
+<input type="radio" name="hob" value="1"> Програмування <br>
+<input type="radio" name="hob" value="2"> Ігри <br>
+<input type="radio" name="hob" value="3"> Музика <br>
+<input type="radio" name="hob" value="none"> Я не маю хоббі <br>
+
+<br>
+
+Для підтвердження натисніть на кнопку Відправити.<br>
+Для відміни на кнопку Відмінити.<br>
+
+<br>
+
+<input type="submit" value="Відправити">
+<input type="reset" value="Відмінити">
+
+</form>
+
+</table>
+
+<img src="eye.jpg" width="600" height="400">
+
+</body>
 </html>
